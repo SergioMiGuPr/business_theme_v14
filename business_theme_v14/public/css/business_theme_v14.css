@@ -135,7 +135,7 @@ input:focus{
 
 /* Colours */
 :root {
-    --background-color: #36414c;
+    --background-color: #60919F;
     --primary-color: #2563eb;
     --secondary-color: #3b82f6;
     --white-color: #ffffff;
@@ -233,48 +233,21 @@ header .form-control:focus{
 
 
 
-/* ===== SIDEBAR AVEC DÉGRADÉ BLEU ===== */
+/* ===== SIDEBAR AVEC DÉGRADÉ CLAIR → JAUNE/OR ===== */
 .layout-side-section {
-    background: linear-gradient(180deg, #091768 0%, #1e3a8a 50%, #1e40af 100%) !important;
-    border-radius: 10px;
-    padding: 20px 10px;
+    background: linear-gradient(180deg, #f8f9fa 0%, #fff8e1 30%, #ffe082 70%, #ffd54f 100%) !important;
 }
 
 .layout-side-section .sidebar-label{
-    color: #ffffff !important;
-    font-weight: 500;
+    color: var(--primary-color);
 }
 .sidebar-label svg,
 .layout-side-section .sidebar-label .icon{
-    stroke: #ffffff !important;
+    stroke: var(--primary-color);
 }
-
-/* Style pour les items du menu sidebar */
-.layout-side-section .standard-sidebar-item,
-.layout-side-section .sidebar-item {
-    color: rgba(255, 255, 255, 0.9) !important;
-    transition: all 0.3s ease;
-    border-radius: 6px;
-    padding: 8px 12px;
-    margin: 4px 0;
-}
-
-.layout-side-section .standard-sidebar-item:hover,
-.layout-side-section .sidebar-item:hover {
-    background: rgba(255, 255, 255, 0.1) !important;
-    color: #ffffff !important;
-}
-
-.layout-side-section .standard-sidebar-item.selected,
-.layout-side-section .sidebar-item.selected {
-    background: rgba(255, 255, 255, 0.15) !important;
-    color: #ffffff !important;
-}
-
 .list-sidebar-button{
-    background-color: rgba(255, 255, 255, 0.15) !important;
+    background-color: #c8c4c4 !important;
     box-shadow: none !important;
-    color: #ffffff !important;
 }
 .list-sidebar-button:active,
 .list-sidebar-button:focus{
