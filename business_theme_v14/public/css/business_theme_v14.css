@@ -231,15 +231,11 @@ header .form-control:focus{
     background-color: var(--white-color) !important;
 }
 
-
-
-/* ===== SIDEBAR AVEC DÉGRADÉ CLAIR → JAUNE/OR ===== */
+/* ===== SIDEBAR AVEC DÉGRADÉ ===== */
 .layout-side-section {
     background: linear-gradient(180deg, 
-        #f5f5f5 0%,      /* Gris très clair (haut) */
-        #f7f5ee 35%,     /* Beige/crème très clair */
-        #f5efd4 70%,     /* Jaune beige pâle */
-        #f3edc4 100%     /* Jaune pâle (bas) */
+    #fff0 0%,
+    #60919f80 100% 
     ) !important;
 }
 
