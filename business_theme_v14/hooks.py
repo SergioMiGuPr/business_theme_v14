@@ -14,7 +14,11 @@ app_license = "MIT"
 
 # include js, css files in header of desk.html
 app_include_css = "/assets/business_theme_v14/css/business_theme_v14.css"
-# app_include_js = "/assets/business_theme_v14/js/business_theme_v14.js"
+app_include_js = "/assets/business_theme_v14/js/business_theme_v14.js"
+
+# ===== CONFIGURATION DU LOGO =====
+# Ajoutez cette ligne pour définir le logo de l'application
+app_logo_url = "/assets/business_theme_v14/images/logo.png"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/business_theme_v14/css/business_theme_v14.css"
